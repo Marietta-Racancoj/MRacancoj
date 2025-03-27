@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .bg-dark-blue{
+            background-color: rgb(5, 5, 104);
+        }
+        .my-font{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+  <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!--fluid takes up whole page-->
+<div class="container-fluid p-5 bg-dark-blue text-white text-center">
+  <h1 class="my-font">Monmouth University Locations</h1>
+  <p class="my-font">Reserve rooms and create events!</p> 
+</div>
+
+<!--mt = margin top, mb = margin bottom-->
+<div class="container mt-5 mb-5">
+
+  <div class="row">
+    <div class="container-fluid col-lg-4 col-md-4 col-sm-8 bg-light rounded">  <!--sm is how much of the 12 point space it takes up on small screen-->
+      <div class="container-fluid bg-dark text-white text-center py-3 rounded mb-3 w-100"><h3>Howard Hall 201</h3></div>
+        <img src="C:/Users/17326/Documents/Fall24-Monmouth/TheCobWebs/tryingthings/BH101ComputerLab.webp" alt="Class room" class="img-thumbnail rounded mb-3" />
+        <p class="px-4">Max Capacity: 12</p>
+        <p class="px-4">Event Types: Study Sessions</p>
+        <p class="px-4">Amenities: Table, 12 chairs, whiteboard, TV</p>
+        <p class="px-4">Time Limit: 5 hrs</p>
+    </div>
+    <div class="container-fluid col-lg-4 col-md-4 col-sm-8 bg-light rounded">
+        <div class="bg-dark text-white text-center py-3 rounded mb-3"><h3>Great Hall 302</h3></div>
+        <img src="C:/Users/17326/Documents/Fall24-Monmouth/TheCobWebs/tryingthings/greathall-2.webp" alt="Class room" class="img-thumbnail rounded mb-3" />
+        <p class="px-4">Max Capacity: 25</p>
+        <p class="px-4">Event Types: classes, club meetings, lectures</p>
+        <p class="px-4">Amenities: 25 chairs, TV</p>
+        <p class="px-4">Time Limit: 4 hrs</p>
+    </div>
+    <div class="container-fluid col-lg-4 col-md-4 col-sm-8 bg-light rounded">
+      <div class="bg-dark text-white text-center py-3 rounded mb-3"><h3>Great Hall Ball Room</h3></div>       
+      <img src="C:/Users/17326/Documents/Fall24-Monmouth/TheCobWebs/tryingthings/IMG_8940.webp" alt="Class room" class="img-thumbnail rounded mb-3" />
+      <p class="px-4">Max Capacity: 100</p>
+      <p class="px-4">Event Types: Large events, Lectures, Parties</p>
+      <p class="px-4">Amenities: 15 high top table</p>
+      <p class="px-4">Time Limit: 5 hrs</p>
+    </div>
+  </div>
+
+</body>
+</html>

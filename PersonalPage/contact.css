@@ -1,0 +1,30 @@
+        /* Ensure navbar sticks to the bottom of the image */
+        header img {
+            margin-bottom: 0;
+            display: block;
+            width: 100%;
+        }
+
+        /* Ensuring equal size for the cards */
+        .card {
+            height: 100%;
+        }
+
+        /* Prevent text overflow and ensure content fits in the boxes */
+        .card-body h2, .card-body h3 {
+            word-wrap: break-word;
+        }
+
+        /* Adjust the size of the images and texts inside the cards */
+        .card-body img {
+            max-width: 80%;
+            height: auto;
+        }
+
+        .card-body h2 {
+            font-size: 1.5rem;
+        }
+
+        .card-body h3 {
+            font-size: 1.2rem;
+        }
